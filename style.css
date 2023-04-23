@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0 !important;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #0000;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    display: block;
+    margin-block-start: 2.5rem;
+    margin-block-end: 2.5rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+/* title section */
+ #title{
+    background-image: url(../images/Netflix\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 515px;
+ }
+
+ .logo{
+    width: 140px;
+    position: absolute;
+   
+ }
+ .navbar {
+    margin: 0 5% 0 5%;
+    padding-top: 20px;
+ }
+
+
+.main{
+    text-align: center;
+    color: #ffff;
+    line-height: 1.5;
+    padding-top: 70px;
+}
+.search{
+    padding-bottom: 150px;
+}
+.email{
+    
+    left: 0;
+    width: 400px;
+    height: 3.5rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    border-radius: 10px;
+}
+.try{
+    padding: 0.5rem 1.2rem;
+    font-weight: bold;
+    width: 12rem;
+    margin-right: 10px;
+    height: 3.5rem;
+}
+
+/* container section */
+
+.container1,.container2,.container3,.container4,.questions,.footer{
+    border-top: 8px grey solid;
+    padding: 50px;
+}
+
+.container1{
+    color: white;
+    background: black;
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 60px 48px 40px ;
+    
+}
+
+.text1{
+    padding-left: 100px;
+}
+
+
+/* container 2 section */
+.container2{
+    color: white;
+    background: black;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 60px 48px 40px;
+    
+}
+.text2{
+    padding-left: 80px;
+}
+
+/* container3 section */
+.container3{
+    color: white;
+    background: black;
+    font-weight: bolder;
+    text-align: left;
+    position: relative;
+    align-items: center;
+    padding-left: 200px;
+}
+.text3{
+    padding: left 100px;
+}
+
+/* container4 section */
+.container4{
+    color: white;
+    background: black;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 60px 48px 40px;
+}
+.text4{
+    padding: left 100px;
+}
+
+/* question section */
+.questions{
+    color: white;
+    background:black;
+    text-align: center;
+    line-height: 1.2;
+    max-height: 980px;
+
+
+}
+.faq1,.faq2,.faq3,.faq4,.faq5,.faq6{
+    background-color: rgb(52, 49, 49);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: start;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.faq1:hover{
+    background-color: rgb(118, 112, 112);
+    cursor: pointer;
+}
+.faq2:hover {
+    background-color: rgb(118, 112, 112);
+    cursor: pointer;
+}
+.faq3:hover {
+    background-color: rgb(118, 112, 112);
+    cursor: pointer;
+}
+.faq4:hover {
+    background-color: rgb(118, 112, 112);
+    cursor: pointer;
+}
+.faq5:hover {
+    background-color: rgb(118, 112, 112);
+    cursor: pointer;
+}
+.faq6:hover {
+    background-color: rgb(118, 112, 112);
+    cursor: pointer;
+}
+
+.iconic1{
+   padding-left: 750px;
+}
+.iconic2{
+    padding-left: 580px;
+}
+.iconic3{
+    padding-left: 701px;
+}
+.iconic4{
+    padding-left: 715px;
+}
+.iconic5{
+    padding-left: 586px;
+}
+.iconic6{
+    padding-left: 645px;
+}
+.search p{
+    padding-top: 20px;
+}
+
+/* footer section */
+.footer{
+    background-color: black;
+    overflow: auto;
+    max-width: 100%;
+    padding-left: 100px;
+
+}
+.footer, .footer a{
+    color:whitesmoke;
+    font-size: 0.9rem;
+}
+.footer p{
+    margin-bottom: 1.5rem;
+    padding-left: 35px;
+}
+ .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 2rem;
+    
+}
+.footer li{
+    line-height: 2.4rem;
+    list-style-type: none;
+}
+
+/* end section */
+.end{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 125px;
+}
+.end input{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.end h6{
+    padding-top: 15px;
+}
